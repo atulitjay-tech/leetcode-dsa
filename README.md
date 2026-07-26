@@ -58,7 +58,7 @@ This repository documents my journey of solving Data Structures & Algorithms pro
 - 🔴 Hard: **0**
 - 💻 Language: **C++** > **Java** > **Python**
 - 🎯 Goal: **1000+ Problems**
-- 📅 Started: **July 2026**
+- 📅 Started: **June 2026**
 
 ---
 
