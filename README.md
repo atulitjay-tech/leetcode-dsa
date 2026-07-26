@@ -100,7 +100,7 @@ Leetcode-DSA
 |    ├── Intervals
 |    ├── Design
 |    └── Miscellaneous
-├── Notes
+└── Notes
 
 ```
 
