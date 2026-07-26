@@ -11,7 +11,7 @@
 # Space Complexity: O(n)
 
 # Author: Atulit
-
+ 
 
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:

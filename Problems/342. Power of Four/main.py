@@ -12,7 +12,7 @@
 # Space Complexity: O(1)
 
 # Author: Atulit
-
+ 
 
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
