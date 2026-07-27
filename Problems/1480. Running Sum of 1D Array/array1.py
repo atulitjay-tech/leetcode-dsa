@@ -11,7 +11,7 @@
 # Space Complexity: O(n)
 
 # Author: Atulit
- 
+
 
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:

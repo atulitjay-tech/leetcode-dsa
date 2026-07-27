@@ -11,7 +11,7 @@
 # Space Complexity: O(1)
 
 # Author: Atulit
- 
+
 
 class Solution:
     def removeStars(self, s: str) -> str:
