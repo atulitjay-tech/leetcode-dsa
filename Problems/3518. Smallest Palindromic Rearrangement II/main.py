@@ -1,16 +1,16 @@
 #this question was really difficult for me and i was unable to come up with a solution even after trying for 2 hours.. so the solution is not completely authentically made by me :)
 
-# LeetCode: 4
-# Problem: Median of Two Sorted Arrays
+# LeetCode: 3518
+# Problem: Smallest Palindromic Rearrangement II
 
 # Primary Topic:
-# - Binary Search
+# - String
 
 # Secondary Topics:
-# - Array
-# - Divide and Conquer
+# - Hashing
+# - Combinatorics
 
-# Time Complexity: O(log(min(m, n)))
+# Time Complexity: O(n + 26^2)
 # Space Complexity: O(1)
 
 # Author: Atulit
@@ -42,14 +42,17 @@ class Solution:
             for ci in range(26):
                 if not freq[ci]: continue
                 freq[ci] -= 1
-                p = perm(half -i-1)
+
+                p = perm(half -i -1)
                 if start + p >= k:
                     left.append(chr(ci + ord('a')))
-                    selected - True
+                    selected = True
                     break
+                    
                 freq[ci] += 1
                 start += p
-            if not selected: return
+
+            if not selected: return ""
 
         h1 = "".join(left)
         mid = s[n//2] if n % 2 == 1 else ""
