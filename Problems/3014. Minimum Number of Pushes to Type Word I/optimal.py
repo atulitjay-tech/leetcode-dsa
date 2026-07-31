@@ -16,14 +16,7 @@
 
 class Solution:
     def minimumPushes(self, word: str) -> int:
-        l = len(word)
-        cost=l
-
-        if l>8:
-            cost+=l-8
-        if l>16:
-            cost+=l-16
-        if l>24:
-            cost+=l-24
-            
-        return cost
+        ans = 0
+        for i in range(len(word)):
+            ans += i // 8 + 1
+        return ans
