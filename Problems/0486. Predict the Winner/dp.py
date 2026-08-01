@@ -15,7 +15,7 @@
 
 
 class Solution:
-    def predictTheWinner (self, nums: List[int]) -> bool:
+    def predictTheWinner (self, nums: list[int]) -> bool:
         memo = {}
         def maxDiff(left, right):
             if left == right:
