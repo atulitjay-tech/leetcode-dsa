@@ -10,10 +10,10 @@ This repository documents my journey of solving Data Structures & Algorithms pro
 
 | Difficulty | Solved |
 |-----------:|-------:|
-| 🟢 Easy    | 17 |
+| 🟢 Easy    | 18 |
 | 🟡 Medium  | 12 |
 | 🔴 Hard    | 2 |
-| **Total**  | **31** |
+| **Total**  | **32** |
 
 ---
 
@@ -52,8 +52,8 @@ This repository documents my journey of solving Data Structures & Algorithms pro
 
 ## 🔥 Current Statistics
 
-- 📝 Total Problems Solved: **31**
-- 🟢 Easy: **17**
+- 📝 Total Problems Solved: **32**
+- 🟢 Easy: **18**
 - 🟡 Medium: **12**
 - 🔴 Hard: **2**
 - 💻 Language: **C++** > **Java** > **Python**
